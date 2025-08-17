@@ -23,7 +23,6 @@ class GroupedAnagram{
                 const idx = char.charCodeAt(0) - 'a'.charCodeAt(0)
                 charArr[idx]++;
             }
-            console.log(map);
             const keyString = charArr.join(",");
             if(!map[keyString]){
                 map[keyString] = [];

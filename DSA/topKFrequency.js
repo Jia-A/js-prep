@@ -37,5 +37,5 @@ class TopKFrequency {
 
 const topKFrequency = new TopKFrequency();
 console.log(topKFrequency.topKFrequency([1, 1, 1,2,5,3,2,4,4,4,4,2], 4));
-console.log(topKFrequency.topKFrequency2([1, 1, 1,2,5,3,2,4,4,4,4], 4));
+console.log(topKFrequency.topKFrequency2([1, 1, 1,1, 1,2,5,3,2,4,4,4,4], 4));
 console.log("--------------------------");

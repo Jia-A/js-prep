@@ -22,9 +22,7 @@ class EncodeDecode{
             let strLength = parseInt(str.slice(i, j));
             i = j+1
             j = i+strLength
-            console.log("i:", i, "j:", j, "strLength:", strLength);
             let word = str.slice(i,j)
-            console.log("word:", word);
             arr.push(word);
             i = j;
             j = i+1

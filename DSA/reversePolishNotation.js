@@ -30,7 +30,7 @@ class EvalRPN {
             }
         }
 
-        return stack.pop()
+        return stack[stack.length - 1]
     }
 }
 
